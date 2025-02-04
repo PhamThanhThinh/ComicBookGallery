@@ -1,0 +1,18 @@
+ASP.NET Core Razor Page (cây thư mục dự án tạo folder Page -> .cshtml)
+Blazor -> .razor
+khác đuôi file
+Quản lý sách
+thêm xóa sửa
+thư viện Identity
+(làm chức năng xác thực nhanh hơn)
+cài nuget package
+- entity framework core
+- entity framework core tools
+- entity framework core sqlserver
+
+tuổi 18 (80%) -> chọn project dễ cho dễ học
+add-migration mo-ta
+update-database
+
+nếu dụng thư viện Identity thì tạo Data (Migration, dbcontext)
+ApplicationDbContext
