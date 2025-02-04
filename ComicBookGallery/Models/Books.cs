@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace ComicBookGallery.Models
 {
@@ -12,10 +13,13 @@ namespace ComicBookGallery.Models
     public int Id { get; set; }
     
     [Required]
-    [Display(Name = "Tiêu đề cuốn sách")]
+    //[Display(Name = "Tiêu đề cuốn sách")]
+    [DisplayName("Tiêu đề cuốn sách")]
     public string BookTitle { get; set; }
+    [DisplayName("Mô tả sách")]
     public string BookDescription { get; set; }
     [Required]
+    [DisplayName("Tác giả")]
     public string Author { get; set; }
 
 

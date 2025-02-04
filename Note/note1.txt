@@ -16,3 +16,10 @@ update-database
 
 nếu dụng thư viện Identity thì tạo Data (Migration, dbcontext)
 ApplicationDbContext
+
+CRUD
+Create
+Read (load dữ liệu lên web)
+Update
+Delete
+
