@@ -22,3 +22,6 @@ vps: 2ram -> linux
 domain -> 20.000
 .online
 ...
+
+parameter
+Tiếng Anh -> job nước ngoài -> hight
