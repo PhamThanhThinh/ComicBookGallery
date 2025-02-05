@@ -26,14 +26,16 @@
         {
           @foreach (var book in Model.Books)
           {
-            <td>@Html.DisplayFor(Model => book.Id)</td>
-            <td>@Html.DisplayFor(Model => book.BookTitle)</td>
-            <td>@Html.DisplayFor(Model => book.BookDescription)</td>
-            <td>@Html.DisplayFor(Model => book.Author)</td>
-            <td>
-              <a asp-page="./Delete" asp-route-id="@book.Id" class="btn btn-danger">Xóa</a>
-              <a asp-page="./Edit" asp-route-id="@book.Id" class="btn btn-success" >Sửa</a>
-            </td>
+            <tr>
+              <td>@Html.DisplayFor(Model => book.Id)</td>
+              <td>@Html.DisplayFor(Model => book.BookTitle)</td>
+              <td>@Html.DisplayFor(Model => book.BookDescription)</td>
+              <td>@Html.DisplayFor(Model => book.Author)</td>
+              <td>
+                <a asp-page="./Delete" asp-route-id="@book.Id" class="btn btn-danger">Xóa</a>
+                <a asp-page="./Edit" asp-route-id="@book.Id" class="btn btn-success">Sửa</a>
+              </td>
+            </tr>
           }
         }
         else

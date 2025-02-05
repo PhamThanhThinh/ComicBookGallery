@@ -1,0 +1,24 @@
+Razor Page (Page)
+Model View Controller
+
+One Dark Pro
+
+ctrol + space (phím cách) để mở gợi ý code trong Visual Studio
+
+vps: code + sql (database) + ...
+cloud server ...
+web server: nginx (free, chạy linux)
+IIS tích hợp trong windows (giao diện, windows server)
+linux (dùng dòng lệnh để không bị lỗi bảo mật)
+linux -> rẻ
+windows -> đắt
+github -> xin lỗi khách hàng
+DevOps -> build một server -> linux -> đưa code của tất cả các team vào
+-> ok -> gửi code lên server -> review -> approved -> khách hàng test (bên mình test hoặc khách hàng test)
+
+vps: 2ram -> linux
+2ram chạy giao diện win -> không chạy nổi
+
+domain -> 20.000
+.online
+...
