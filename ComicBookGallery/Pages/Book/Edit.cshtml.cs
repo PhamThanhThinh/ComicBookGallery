@@ -43,7 +43,8 @@ namespace ComicBookGallery.Pages.Book
 
       _context.Update(Books);
       await _context.SaveChangesAsync();
-      return Page();
+      //return Page();
+      return RedirectToPage("./Index");
     }
 
   }
